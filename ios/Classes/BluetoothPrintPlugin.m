@@ -245,6 +245,7 @@
     }
     
     [command addPrintAndFeedLines:4];
+    [command addCutPaperAndFeed:4];
     return [command getCommand];
 }
 
